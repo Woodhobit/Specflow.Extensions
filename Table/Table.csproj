@@ -46,7 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Property.cs" />
+    <Compile Include="Model\PropertyPart.cs" />
+    <Compile Include="Model\PropertyType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\PropertyInstanceService.cs" />
+    <Compile Include="TableExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
